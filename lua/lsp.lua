@@ -8,6 +8,7 @@ require("lspconfig").hls.setup{}
 require("lspconfig").clangd.setup{}
 require("lspconfig").tsserver.setup{}
 require("lspconfig").jsonls.setup{}
+require("lspconfig").jdtls.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
